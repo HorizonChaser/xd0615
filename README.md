@@ -27,6 +27,4 @@ SSH可以让我们直接连接到GitHub的服务器, 并且不需要每次都输
 
 3. 使用git push把所有本地的修改推送到服务器, 关于git push, [参见GitHub的官方文档](https://help.github.com/cn/github/using-git/pushing-commits-to-a-remote-repository)
 
-
-
-000
+   
