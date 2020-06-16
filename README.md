@@ -1,5 +1,5 @@
 # Git&GitHub 笔记
-From Optional Course "Opensource Hardware"
+From Optional Course "Opensource Hardware"    
 As an "External Student"
 
 > 由于我很久以前就注册了GitHub, 一个月前完成了SSH密钥配置, 因此我会直接从使用SSH进行clone/push开始写
@@ -16,3 +16,15 @@ SSH可以让我们直接连接到GitHub的服务器, 并且不需要每次都输
 这样, 远程仓库就被clone到了 FFRRLC/xd0615 里面
 
 ## 使用SSH 推送修改
+
+1. 使用git add将内容添加到暂存区(stage/index, 位于xd0615/.git里面)
+
+2. 使用git commit提交更改, 实质上是把暂存区的内容提交到当前分支(的本地副本中, 并没有到服务器)    
+
+   也就是说, 在git add之后即使是同一文件进行的修改也不会重复提交
+
+   可以多次对同一文件进行add, 也可以先commit再add
+
+3. 使用git push把所有本地的修改推送到服务器, 关于git push, [参见GitHub的官方文档](https://help.github.com/cn/github/using-git/pushing-commits-to-a-remote-repository)
+
+   
